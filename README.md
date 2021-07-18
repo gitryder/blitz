@@ -2,7 +2,7 @@
   <img align="left" src="assets/logo_128.png" width="120"/> 
 </p>
 
-## Blitz
+## Quib
 A simple<sup> [1](#%EF%B8%8F-citations) </sup>, blazing fast Google Meet Participant name scraper
 
 <br>

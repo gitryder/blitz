@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Blitz - Simple Google Meet Attendance",
+    "name": "Quib - Simple Google Meet Attendance",
     "description": "A simple, blazing fast Google Meet Participant name scraper",
     "version": "1.0",
     "background": {
