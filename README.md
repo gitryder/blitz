@@ -34,7 +34,7 @@ A simple<sup> [1](#%EF%B8%8F-citations) </sup>, blazing fast Google Meet Partici
 
 🌄 Contribute to this project
 =============================
-1. Fork this repo (git clone https://github.com/gitryder/blitz.git)
+1. Fork this repo (git clone https://github.com/gitryder/quib.git)
 2. Create a feature branch (git checkout -b a-new-feature)
 3. Commit your work (git commit -am 'Add new feature')
 4. Push to your branch (git push origin a-new-feature)
