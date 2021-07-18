@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&display=swap" rel="stylesheet">
+    <title>Blitz</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+
+            width: 402px;
+            height: 235px;
+
+            font-family: Barlow;
+        }
+
+        body {
+            padding-top: 16px;
+        }
+
+        .title {
+            margin: 0;
+            margin-left: 16px;
+            font-size: 48px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            margin: 0;
+            margin-left: 16px;
+            font-size: 18px;
+            font-weight: 600;
+            color: #1B1B1B;
+        }
+
+        .cta-container {
+            display: grid;
+            margin: 5% 10% 0 10%;
+        }
+
+        button {
+            height: 58px;
+            margin-bottom: 5px;
+
+            background-color: #FDE392;
+
+            border: 2px solid #FDE392;
+            border-radius: 15px;
+            outline: none;
+
+            font-family: Barlow;
+            font-size: 24px;
+            font-weight: 700;
+            color: #F33200;
+        }
+
+        button:hover {
+            background-color: #FFD141;
+            border-color: #FFD141;
+        }
+
+        .about {
+            margin: 20px 0 0 16px;
+            font-size: 12px;
+            font-weight: 600;   
+            color: #1B1B1B;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="title">🔥 Blitz</h1>
+        <p class="subtitle">
+            A simple, blazing fast Google Meet Participant name scraper
+        </p>
+    </div>
+    <div class="cta-container">
+        <!-- h=323px <button id="btn_get_presentees" type="submit">Get Presentees</button> -->
+        <button id="btn_download_txt" type="submit">Download as .txt</button>
+    </div>
+    <div>
+        <p class="about">Built with ❤️ by Danyl Fernandes&nbsp;&nbsp;•&nbsp;&nbsp;v1.0</p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

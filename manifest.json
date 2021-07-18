@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Blitz - Simple Google Meet Attendance",
+    "description": "A simple, blazing fast Google Meet Participant name scraper",
+    "version": "1.0",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "128": "assets/logo_128.png"
+    },
+    "page_action": {
+        "default_icon": "assets/logo.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["declarativeContent", "activeTab"]
+}
